@@ -1,0 +1,30 @@
+
+/*estilos banners*/
+/*.nosotros{
+	border: rgb(158, 51, 51);
+	background-color: rgb(150, 150, 150);
+  }
+  */
+.banner{
+	widows: 700px; 
+	height: 500px;
+	border:18px solid white;
+	background-size: 100% 100%;
+	animation-name: banner;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+  }
+  
+  
+  
+  @keyframes banner{
+	0% ,30%{
+		background-image: url(../Imagenes/Banner1.jpeg); 
+	}
+	35%,65%{
+		background-image: url(../Imagenes/Banner2.jpeg); 
+	}
+	70%,100%{
+		background-image: url(../Imagenes/Banner3.jpeg); 
+	}
+  }

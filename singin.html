@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Karakter encoding -->
+    <meta charset="utf-8">
+    <!-- 
+		Perintah agar lebar viewport mengikuti lebar perangkat
+		dan skala mengikuti ukuran ketika web di-load
+	 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Meetdex</title>
+    <!-- Load bootstrap stylesheet -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Load login stylesheet -->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="card card-login">
+            <div class="card-body">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="padding bg-primary text-center align-items-center d-flex">
+                            <div id="particles-js"></div>
+                            <div class="w-100">
+                                <div class="logo mb-4">
+                                    <img src="img/kodinger.jpg" alt="kodinger logo" class="img-fluid">
+                                </div>
+                                <h4 class="text-light mb-2">Don't waste your time</h4>
+                                <p class="lead text-light">Registrese de manera rapida.</p>
+                                <button class="btn btn-block btn-icon btn-icon-google mb-3">
+                                    Iniciar con Google
+                                </button>
+                            </div>
+
+                            <div class="help-links">
+                                <ul>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="padding">
+                            <h2>Registrarse</h2>
+                            <!-- #region 
+                            <p class="lead">Antes de comenzar, debe iniciar sesión o registrarse si aún no tiene una
+                                cuenta.</p>
+                            -->
+                            <form autocomplete="off">
+                                
+                                <div class="form-group">
+                                    <label for="username">Usuario</label>
+                                    <input type="text" name="username" class="form-control" id="username" tabindex="1">
+                                </div>
+                                <!--CAMPO IGUAL A ANTERIOR-->
+                                <div class="form-group">
+                                    <label for="username">E-mail</label>
+                                    <input type="text" name="username" class="form-control" id="username" tabindex="1">
+                                </div>
+                               
+                                <div class="form-group">
+                                    <label class="d-block" for="password">
+                                        Contraseña
+                                        <!--  <div class="float-right">
+                                            <a href="#">¿Olvidaste tu contraseña?</a>
+                                        </div>-->
+                                    </label>
+                                    <input type="password" name="password" class="form-control" id="password"
+                                        tabindex="2">
+                                </div>
+                                <div class="form-group">
+                                    <label class="d-block" for="password">
+                                        Confirmar Contraseña
+                                        <!--  <div class="float-right">
+                                            <a href="#">¿Olvidaste tu contraseña?</a>
+                                        </div>-->
+                                    </label>
+                                    <input type="password" name="password" class="form-control" id="password"
+                                        tabindex="2">
+                                </div>
+
+
+                                <div class="form-group text-right">
+                                    <div class="float-left mt-2">
+                                        <!-- REGISTRARSE REDIRECCIONAR-->
+                                        <a href="#">Iniciar Sesion</a>
+                                    </div>
+                                    <button class="btn btn-primary" tabindex="3">
+                                        Registrarse
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/particles.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particlesjs-config.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+</body>
+
+</html>
