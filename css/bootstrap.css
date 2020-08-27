@@ -264,9 +264,10 @@ a:focus {
 }
 /*BARRA DE NAVEGACION*/
 .navbar {
-  position: relative;
-  min-height: 50px;
-  margin-top: 40px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin-top: 0px;
   margin-bottom: 20px;
     
   background: linear-gradient(150deg, rgb(171, 130, 184),rgb(122, 206, 212),rgb(245, 201, 135));
@@ -572,3 +573,5 @@ h1 {
   font-weight: 400;
   letter-spacing: 1px;
 }
+
+/*BANNER 4TO NOSOTROS*/
