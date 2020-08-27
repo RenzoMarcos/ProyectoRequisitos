@@ -28,17 +28,21 @@
 		background-image: url(../Imagenes/Banner3.jpeg); 
 	}
   }
+
   /*BANNER NOSOTROS*/
   .nosotros{
-	widows: 700px; 
-	height: 500px;
+	widows: 500px; 
+	height: 300px;
 	border:18px solid white;
 	background: linear-gradient(150deg, rgb(171, 130, 184),rgb(122, 206, 212),rgb(245, 201, 135));
 	background-size: 400% 300%;
 	animation: BgGradient 5s ease infinite;
   
   }
- 
+ .texto-nosotros{
+	 text-align : center;
+	 
+ }
 
   
   @keyframes BgGradient {
