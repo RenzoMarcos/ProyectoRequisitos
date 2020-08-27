@@ -30,7 +30,9 @@
   }
   /*BANNER NOSOTROS*/
   .nosotros{
-
+	widows: 700px; 
+	height: 500px;
+	border:18px solid white;
 	background: linear-gradient(150deg, rgb(171, 130, 184),rgb(122, 206, 212),rgb(245, 201, 135));
 	background-size: 400% 300%;
 	animation: BgGradient 5s ease infinite;
