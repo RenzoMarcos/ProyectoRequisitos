@@ -174,8 +174,8 @@
   .product_inner h1 {
     color: rgba(48, 53, 52, 0.9);
     font-family: Segoe UI, Tahoma, Geneva, 'Verdana', sans-serif;
-    font­size: 16px;
-    font­size: 1rem;
+   /* font­size: 16px;
+    font­size: 1rem;*/
     
   
   }
